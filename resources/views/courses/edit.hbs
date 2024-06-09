@@ -1,0 +1,30 @@
+<div class="mt-0">
+    <form style="height: 3000px;width: 95%;margin: auto;padding: 100px 0px 0px 0px;" method="POST" action="/courses/{{course._id}}?_method=PUT">
+    <h2>CẬP NHẬT KHOA HỌC</h2>
+        <div class="form-group">
+            <label for="name">Tên khoa : </label>
+            <input type="text" class="form-control" value="{{course.name}}" id="name" name="name" />
+        </div>
+        <div class="form-group">
+            <label for="description">Chú thích: </label>
+            <textarea class="form-control" id="description" name="description" >{{course.description}}</textarea>
+        </div>
+        <div class="form-group">
+            <label for="doctor">bác sĩ phụ trách: </label>
+            <input type="text" class="form-control" value="{{course.doctor}}" id="doctor" name="doctor" />
+        </div>
+        <div class="form-group">
+            <label for="videoId">Video: </label>
+            <input type="text" class="form-control" value="{{course.videoId}}" id="videoId" name="videoId" />
+        </div>
+        <div class="form-group">
+            <label for="image">Hình ảnh: </label>
+            <input type="text" class="form-control" value="{{course.image}}" id="image" name="image" />
+        </div>
+        <div class="form-group">
+            <label for="level">Trình độ: </label>
+            <input type="text" class="form-control" value="{{course.level}}" id="level" name="level" />
+        </div>
+        <button type="submit" class="btn btn-primary">LƯU LẠI</button>
+    </form>
+</div>

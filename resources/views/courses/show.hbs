@@ -1,0 +1,27 @@
+<div style="padding: 100px 0px 0px 0px;" class="mt-0">
+    <div style="height: 3000px;width: 95%;margin: auto;" class="r">
+        <h2>Khoa: {{courses.name}} </h2>
+        <br>
+        <p>{{courses.description}}</p>
+        <div style="border-top: 5px solid gray;padding: 100px 0px 0px 0px;" class="row">
+            <div style="border-right: 5px solid gray;" class="col-lg-6">
+                <br>
+                <h2>Bác sĩ: {{courses.doctor}} <p>Trình độ: {{courses.level}}</p>
+                </h2>
+                <a style="text-decoration: none;" href="/"><button style="width: 70%;color:aqua;border-radius: 20px;">Thoát</button></a>
+                <br>
+                <br>
+                <p>LỊCH KHÁM</p>
+                <p>ĐỊA CHỈ KHÁM</p>
+                <p>GIÁ KHÁM</p>
+            </div>
+            <div style="padding: 0px 0px 0px 60px;" class="col-lg-4">
+                <br>
+                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/{{courses.videoId}}"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></h3>
+            </div>
+        </div>
+    </div>
+</div>

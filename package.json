@@ -1,0 +1,55 @@
+{
+  "name": "web_benh_vien",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webbenhvien.js",
+  "scripts": {
+    "beautiful": "lint-staged",
+    "watch": "node-sass --watch resources/scss/ --output public/css/",
+    "start": "nodemon --inspect webbenhvien.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongminh-14a5/do_an_benh_vien.github.io.git"
+  },
+  "keywords": [
+    "minh",
+    "tien",
+    "luy",
+    "nodejs",
+    "js",
+    "hospital"
+  ],
+  "author": "trong minh, minh tien, khac luy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongminh-14a5/do_an_benh_vien.github.io/issues"
+  },
+  "homepage": "https://github.com/trongminh-14a5/do_an_benh_vien.github.io#readme",
+  "lint-staged": {
+    "/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.4.3",
+    "mongoose-delete": "^1.0.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-slug-updater": "^3.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1"
+  }
+}

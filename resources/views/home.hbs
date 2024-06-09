@@ -1,0 +1,152 @@
+<div class="bodydiv">
+    <div class="imagemenu">
+        <div class="nothing"></div>
+        <div class="titleimagenum1">
+            <p>NỀN TẢNG Y TẾ</p>
+            <p>CHĂM SÓC SỨC KHỎE TOÀN DIỆN</p>
+        </div>
+        <input type="text" placeholder="Tim chuyen khoa kham benh ma ban muon" />
+        <div class="titleiconimage">
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-hospital"></i>
+                        <p>Khám chuyên khoa</p>
+                    </a></div>
+            </form>
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-phone"></i>
+                        <p>Khám từ xa</p>
+                    </a></div>
+            </form>
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-bed-pulse"></i>
+                        <p>Kham tong quat</p>
+                    </a></div>
+            </form>
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-flask-vial"></i>
+                        <p>Xet nghiem y hoc</p>
+                    </a></div>
+            </form>
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-dumbbell"></i>
+                        <p>Suc khoe vs tinh than</p>
+                    </a></div>
+            </form>
+            <form action="" method="post">
+                <div class="icon"><a href=""><i class="fa-solid fa-teeth"></i>
+                        <p>Khám nha khoa</p>
+                    </a></div>
+            </form>
+        </div>
+    </div>
+    <p class="name_pop">Chuyen khoa pho bienn</p>
+    <div class="popularspecialist">
+        {{!-- van de 1 --}}
+        {{#each courses}}
+        {{!-- {{#ifClass this.class}} {{this.class}} --}}
+        <div class="liltechosseinput ">
+            {{!-- van de 2 --}}
+            <a href="/courses/{{this.slug}}">
+
+                <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+                    class="liltechosseinput_item">
+                    <p class="text_for_menu_item">{{this.name}}</p>
+                </div>
+            </a>
+        </div>
+        {{!-- van de 3 --}}
+        {{/each}}
+    </div>
+    <p class="name_pop">Co so y te noi bat</p>
+    <div class="popularhoslital">
+        <script>
+            Handlebars.registerHelper('ifClass', function (classValue, options) {
+                if (classValue === '01') {
+                    return options.fn(this);
+                }
+                return options.inverse(this);
+            });
+        </script>
+        {{#each courses}}
+        {{#ifClass class}}
+        <div class="liltechosseinput">
+            <a href="/courses/{{this.slug}}">
+                <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+                    class="liltechosseinput_item">
+                    <p class="text_for_menu_item">{{this.name}}</p>
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+    <p class="name_pop">Bac si noi bat tuan qua</p>
+    <div class="populardoctor">
+        {{#each courses}}
+        <div class="liltechosseinput">
+            <a href="/courses/{{this.slug}}">
+                <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+                    class="liltechosseinput_item">
+                    <p class="text_for_menu_item">{{this.name}}</p>
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+    <p class="name_pop">Cam nang</p>
+    <div class="rosemary">
+        {{#each courses}}
+        <div class="liltechosseinput">
+            <a href="/courses/{{this.slug}}">
+                <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+                    class="liltechosseinput_item">
+                    <p class="text_for_menu_item">{{this.name}}</p>
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+    <p class="name_pop">Truyen thong noi ve Channel</p>
+    <div class="youtubeandsoscity">
+
+        <div class="youtobeshow">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QIvIN8M91x4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="textforyoutobe">
+            <p>Việnn Y học PK-KQ tiền thân là Bệnh viện PK-KQ được thành lập ngày
+                15/1/1970 theo Quyết định số 179/TM-QL trên cơ sở hợp nhất khoa Không
+                quân (khoa A6) của Viện Quân y 108 và Đội điều trị PK-KQ. Nơi đóng quân
+                hiện nay tại số 225, Đường Trường Chinh, Phường Khương Mai, Quận Thanh
+                Xuân, Thành phố Hà Nội. Viện Y học PK-KQ với chức năng, nhiệm vụ chính
+                là Khám tuyển tạo nguồn học viên lái máy bay quân sự. Giám định, quản lý
+                sức khỏe phi công quân sự; nghiên cứu khoa học về Y học Hàng không
+                (YHHK) và bệnh nghề nghiệp; huấn luyện sinh lý YHHK cho phi công và nhân
+                viên công tác trên không; huấn luyện đào tạo chuyên ngành YHHK; thực
+                hiện chỉ đạo công tác tuyến; hợp tác Quốc tế về YHHK; đảm bảo quân y sẵn
+                sàng chiến đấu theo phân cấp, phòng chống dịch bệnh, tìm kiếm cứu hộ,
+                cứu nạn; phòng chống thiên tai thảm họa; khám chữa bệnh cho bộ đội thuộc
+                Quân chủng PK-KQ và nhân dân; tham gia khám tuyển tạo nguồn phi công và
+                nhân viên Hàng không dân dụng; giám định sức khỏe nhân viên Hàng không.</p>
+        </div>
+    </div>
+
+    <div class="chartallpecialist">
+
+    </div>
+    <div class="commentforall">
+
+    </div>
+
+    <script>
+        Handlebars.registerHelper('ifClass', function (classValue, options) {
+            if (classValue === '01') {
+                return options.fn(this);
+            }
+            return options.inverse(this);
+        });
+
+
+    </script>
+</div>
