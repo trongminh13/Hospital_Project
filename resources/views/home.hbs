@@ -59,16 +59,7 @@
     </div>
     <p class="name_pop">Co so y te noi bat</p>
     <div class="popularhoslital">
-        <script>
-            Handlebars.registerHelper('ifClass', function (classValue, options) {
-                if (classValue === '01') {
-                    return options.fn(this);
-                }
-                return options.inverse(this);
-            });
-        </script>
         {{#each courses}}
-        {{#ifClass class}}
         <div class="liltechosseinput">
             <a href="/courses/{{this.slug}}">
                 <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
