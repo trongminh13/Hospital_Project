@@ -1,60 +1,62 @@
-[{
-  "_id": {
-    "$oid": "64e242964b9361dc8b139214"
+[
+  {
+    "_id": {
+      "$oid": "64e242964b9361dc8b139214"
+    },
+    "name": "Bach_mai",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "xuong khop ne",
+    "description": "Khai niem ve x",
+    "class": "01"
   },
-  "name": "Bach_mai",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "xuong khop ne",
-  "description": "Khai niem ve x",
-  "class": "01"
-},
-{
-  "_id": {
-    "$oid": "64e34cac8837da6bc514c59f"
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c59f"
+    },
+    "name": "Thu Dức",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "Việt đức",
+    "description": "Khai niem ve x",
+    "class": "01"
   },
-  "name": "Thu Dức",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "Việt đức",
-  "description": "Khai niem ve x",
-  "class": "01"
-},
-{
-  "_id": {
-    "$oid": "64e34cb98837da6bc514c5a0"
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c5a0"
+    },
+    "name": "Xương khớp",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "Đại học Y",
+    "description": "Khai niem ve x",
+    "class": "02"
   },
-  "name": "Xương khớp",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "Đại học Y",
-  "description": "Khai niem ve x",
-  "class": "02"
-},
-{
-  "_id": {
-    "$oid": "64e34cc68837da6bc514c5a1"
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c5a1"
+    },
+    "name": "SANG_PON",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "Sang pon",
+    "description": "Khai niem ve x",
+    "class": "02"
   },
-  "name": "SANG_PON",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "Sang pon",
-  "description": "Khai niem ve x",
-  "class": "02"
-},
-{
-  "_id": {
-    "$oid": "64e4664900f4f67367a02a99"
+  {
+    "_id": {
+      "$oid": "64e4664900f4f67367a02a99"
+    },
+    "name": "CAU GIAY",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "Hoàng cầu ne",
+    "description": "Khai niem ve x",
+    "class": "01"
   },
-  "name": "CAU GIAY",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "Hoàng cầu ne",
-  "description": "Khai niem ve x",
-  "class": "01"
-},
-{
-  "_id": {
-    "$oid": "64e34cdf8837da6bc514c5a2"
-  },
-  "name": "Trung Quoc",
-  "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-  "slug": "Hoàng cầu",
-  "description": "Khai niem ve x",
-  "class": "02"
-}]
+  {
+    "_id": {
+      "$oid": "64e34cdf8837da6bc514c5a2"
+    },
+    "name": "Trung Quoc",
+    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
+    "slug": "Hoàng cầu",
+    "description": "Khai niem ve x",
+    "class": "02"
+  }
+]

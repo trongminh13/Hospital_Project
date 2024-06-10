@@ -13,6 +13,7 @@ class SitesController{
         }
 
         const courses = JSON.parse(data);
+        console.log(courses)
         res.render('home', { courses: courses });
     });
 }
