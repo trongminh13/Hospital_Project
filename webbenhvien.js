@@ -18,6 +18,7 @@ app.engine(
   engine({
     extname: ".hbs",
     helpers: {
+      sum: (a, b) => a + b,
       dbFiltered: function (classValue, db) {
         const result = db.filter((item) => {
           return item.class === classValue;

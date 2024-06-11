@@ -1,62 +1,214 @@
 [
   {
     "_id": {
-      "$oid": "64e242964b9361dc8b139214"
+      "$oid": "64e34cc68837da6bc514c568"
     },
-    "name": "Bach_mai",
+    "name": "Cơ Xương Khớp",
     "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "xuong khop ne",
-    "description": "Khai niem ve x",
+    "slug": "cxk",
+    "description": "Hàng 1 - Chuyên Khoa Phổ Biến",
     "class": "01"
   },
   {
     "_id": {
-      "$oid": "64e34cac8837da6bc514c59f"
+      "$oid": "64e242964b9361dc8b139222"
     },
-    "name": "Thu Dức",
-    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "Việt đức",
-    "description": "Khai niem ve x",
+    "name": "Thần Kinh",
+    "image": "https://benhviendakhoadalat.vn/wp-content/uploads/2019/10/khoa-than-kinh.jpg",
+    "slug": "tk",
+    "description": "Hàng 1 - Chuyên Khoa Phổ Biến",
     "class": "01"
   },
   {
     "_id": {
-      "$oid": "64e34cb98837da6bc514c5a0"
+      "$oid": "64e242964b9361dc8b139223"
     },
-    "name": "Xương khớp",
-    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "Đại học Y",
-    "description": "Khai niem ve x",
-    "class": "02"
-  },
-  {
-    "_id": {
-      "$oid": "64e34cc68837da6bc514c5a1"
-    },
-    "name": "SANG_PON",
-    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "Sang pon",
-    "description": "Khai niem ve x",
-    "class": "02"
-  },
-  {
-    "_id": {
-      "$oid": "64e4664900f4f67367a02a99"
-    },
-    "name": "CAU GIAY",
-    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "Hoàng cầu ne",
-    "description": "Khai niem ve x",
+    "name": "Tiêu Hóa",
+    "image": "https://umcclinic.com.vn/Data/Sites/1/News/533/khoa-noi-tieu-hoa-chan-doan-va-dieu-tri-benh-ly-he-tieu-hoa.jpg",
+    "slug": "th",
+    "description": "Hàng 1 - Chuyên Khoa Phổ Biến",
     "class": "01"
   },
   {
     "_id": {
-      "$oid": "64e34cdf8837da6bc514c5a2"
+      "$oid": "64e242964b9361dc8b139224"
     },
-    "name": "Trung Quoc",
-    "image": "https://cdn-i.vtcnews.vn/upload/2023/03/29/x81a998fb4222d24a987ea95b808905d3jpgqrt20230329161028pagespeedicfb73sdvsz8-16134550.jpg",
-    "slug": "Hoàng cầu",
-    "description": "Khai niem ve x",
+    "name": "Tim Mạch",
+    "image": "https://www.umcclinic.com.vn/Data/Sites/1/media/y-hoc-thuong-thuc/tim-m%E1%BA%A1ch/khi-n%C3%A0o-c%E1%BA%A7n-%C4%91i-kh%C3%A1m-b%C3%A1c-s%C4%A9-tim-m%E1%BA%A1ch/can-het-suc-quan-tam-den-suc-khoe-tim-mach.jpg",
+    "slug": "tm",
+    "description": "Hàng 1 - Chuyên Khoa Phổ Biến",
+    "class": "01"
+  },
+  {
+    "_id": {
+      "$oid": "64e242964b9361dc8b139225"
+    },
+    "name": "Tai Mũi Họng",
+    "image": "https://cdn.tgdd.vn//News/1481596//phong-kham-tai-mui-hong-bmt-bs-bien-845x564.jpg",
+    "slug": "tmh",
+    "description": "Hàng 1 - Chuyên Khoa Phổ Biến",
+    "class": "01"
+  },
+  
+
+
+
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c510"
+    },
+    "name": "Bệnh Viện Hữu Nghị Việt Đức",
+    "image": "https://congchung247.com.vn/wp-content/uploads/2023/06/image-643-edited.png",
+    "slug": "VietDuc",
+    "description": "Hàng 2 - Cơ Sở Y tế Nổi Bật",
     "class": "02"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c511"
+    },
+    "name": "Bệnh Viện Đại Học Hà Nội",
+    "image": "https://bcare.vn/upload/2020/09/04/benh-vien-dai-hoc-y-ha-noi-1_04092020224042.jpg",
+    "slug": "DhYD1",
+    "description": "Hàng 2 - Cơ Sở Y tế Nổi Bật",
+    "class": "02"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c512"
+    },
+    "name": "Bệnh Viện K - Viện Radium Đông Dương",
+    "image": "https://benhvienk.vn/data/media/1601/images/IMG_7272.jpeg",
+    "slug": "benhvienK",
+    "description": "Hàng 2 - Cơ Sở Y tế Nổi Bật",
+    "class": "02"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c513"
+    },
+    "name": "Bệnh Viện Phương Nam",
+    "image": "https://nld.mediacdn.vn/291774122806476800/2024/3/16/54e7cd56c0b76ce935a6-17105736605571702124005.jpg",
+    "slug": "Phuongnam",
+    "description": "Hàng 2 - Cơ Sở Y tế Nổi Bật",
+    "class": "02"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cac8837da6bc514c514"
+    },
+    "name": "Bệnh Viện Bạch Mai",
+    "image": "https://bcp.cdnchinhphu.vn/Uploaded/hoangtrongdien/2020_02_18/kh%C3%A1m-b%E1%BB%87nh-%E1%BB%9F-b%E1%BB%87nh-vi%E1%BB%87n-B%E1%BA%A1ch-Mai-1-1024x449.jpg",
+    "slug": "bachmai",
+    "description": "Hàng 2 - Cơ Sở Y tế Nổi Bật",
+    "class": "02"
+  },
+ 
+
+
+
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c515"
+    },
+    "name": "Giáo sư, Đỗ Trọng Minh",
+    "image": "https://afamilycdn.com/150157425591193600/2020/12/17/base64-16082048338551852935059.png",
+    "slug": "gsdtm",
+    "description": "Hàng 3 - Bác Sĩ Nổi Bật Tuần Qua",
+    "class": "03"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c516"
+    },
+    "name": "Thạc sĩ, Bùi Việt Hưng",
+    "image": "https://benhvienbacha.vn/wp-content/uploads/2023/01/kham-suc-khoe-tong-quat-bac-ha-1.jpg",
+    "slug": "tsbvh",
+    "description": "Hàng 3 - Bác Sĩ Nổi Bật Tuần Qua",
+    "class": "03"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c517"
+    },
+    "name": "Thực tập, Vũ Minh Tuấn",
+    "image": "https://www.phongkhambacsygiadinhbinhduong.com/wp-content/uploads/2021/08/Phong-Kham-Bac-Sy-Gia-Dinh-Binh-Duong-2.jpg",
+    "slug": "ttvmt",
+    "description": "Hàng 3 - Bác Sĩ Nổi Bật Tuần Qua",
+    "class": "03"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c518"
+    },
+    "name": "Thạc sĩ, Hà Ngọc Đỗ",
+    "image": "https://nld.mediacdn.vn/291774122806476800/2023/7/5/14-chot-16885610642471383687026.jpg",
+    "slug": "tshnd",
+    "description": "Hàng 3 - Bác Sĩ Nổi Bật Tuần Qua",
+    "class": "03"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cb98837da6bc514c519"
+    },
+    "name": "Phó giáo sư, Bùi Minh Tiến",
+    "image": "https://baodongnai.com.vn/file/e7837c02876411cd0187645a2551379f/102023/a1_gs_nhan_20231029183938.jpeg",
+    "slug": "pdsbmt",
+    "description": "Hàng 3 - Bác Sĩ Nổi Bật Tuần Qua",
+    "class": "03"
+  },
+
+
+
+
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c520"
+    },
+    "name": "Cẩm nang làm mẹ",
+    "image": "https://static.vecteezy.com/ti/vecteur-libre/p1/4526307-session-de-therapie-familiale-semi-plat-rgb-color-vector-illustration-parenting-difficultes-rendez-vous-avec-des-psychologues-psychotherapie-psychologie-consultation-isolated-cartoon-character-on-white-vectoriel.jpg",
+    "slug": "cnlcm",
+    "description": "Hàng 4 - Cẩm Nang",
+    "class": "04"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c598"
+    },
+    "name": "Cẩm nang 101 cách phá thai mà không hại sức khỏe",
+    "image": "https://static.vecteezy.com/ti/vecteur-libre/p1/4526307-session-de-therapie-familiale-semi-plat-rgb-color-vector-illustration-parenting-difficultes-rendez-vous-avec-des-psychologues-psychotherapie-psychologie-consultation-isolated-cartoon-character-on-white-vectoriel.jpg",
+    "slug": "cnptmkhsk",
+    "description": "Hàng 4 - Cẩm Nang",
+    "class": "04"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c597"
+    },
+    "name": "Cẩm nang cho bé",
+    "image": "https://static.vecteezy.com/ti/vecteur-libre/p1/4526307-session-de-therapie-familiale-semi-plat-rgb-color-vector-illustration-parenting-difficultes-rendez-vous-avec-des-psychologues-psychotherapie-psychologie-consultation-isolated-cartoon-character-on-white-vectoriel.jpg",
+    "slug": "cnceb",
+    "description": "Hàng 4 - Cẩm Nang",
+    "class": "04"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c596"
+    },
+    "name": "Cẩm nang 101 Hồi sinh người chết",
+    "image": "https://static.vecteezy.com/ti/vecteur-libre/p1/4526307-session-de-therapie-familiale-semi-plat-rgb-color-vector-illustration-parenting-difficultes-rendez-vous-avec-des-psychologues-psychotherapie-psychologie-consultation-isolated-cartoon-character-on-white-vectoriel.jpg",
+    "slug": "cnhsnc",
+    "description": "Hàng 4 - Cẩm Nang",
+    "class": "04"
+  },
+  {
+    "_id": {
+      "$oid": "64e34cc68837da6bc514c595"
+    },
+    "name": "Cẩm nang tâm lý Hôn nhân & Gia đình",
+    "image": "https://static.vecteezy.com/ti/vecteur-libre/p1/4526307-session-de-therapie-familiale-semi-plat-rgb-color-vector-illustration-parenting-difficultes-rendez-vous-avec-des-psychologues-psychotherapie-psychologie-consultation-isolated-cartoon-character-on-white-vectoriel.jpg",
+    "slug": "cnhngd",
+    "description": "Hàng 4 - Cẩm Nang",
+    "class": "04"
   }
 ]

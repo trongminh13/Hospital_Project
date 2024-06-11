@@ -3,13 +3,15 @@ const { mongooseToObject } = require("../../util/mongoose");
 const course = require("../models/course");
 //kha nang
 class CoursesController {
+  
   show(req, res, next) {
     // get courses/:slug
-    Course.findOne({ slug: req.params.slug })
+    Course.findOne({ slug: req.params.slug})
       .then((courses) =>
-        res.render('courses/show', {
+        res.render('courses/showdoctorcv', {
           courses: mongooseToObject(courses),
         })
+      
       )
       .catch(next);
   }

@@ -12,6 +12,7 @@ const Course = new Schema({
     doctor: { type: String },
     videoId: { type: String, required: true, },
     level: { type: String },
+    address: {type: String},
     class:{type: String},
     slug: { type: String,slug: 'name',unique:true },
 

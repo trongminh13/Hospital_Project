@@ -39,81 +39,72 @@
       </form>
     </div>
   </div>
-  <p class="name_pop">Chuyen khoa pho bienn</p>
+  {{!-- DAY LA LAY NHUNG CHUYEN KHOA PHO BIEN LAM CHINH --}}
+  <p class="name_pop">Chuyen khoa pho bien</p>
   <div class="popularspecialist">
     {{! Tạo helper với 2 tham số, tham số thứ nhất là class ID, tham số thứ 2 là data courses lấy từ SitesController }}
     {{! Nên đóng các magic number :01, 02, 03, ... thành constants, ví dụ const chuyenkhoaphobien_classID === "01" }}
     {{#each (dbFiltered "01" courses)}}
-      <div class="liltechosseinput">
-        <a href="/courses/{{this.slug}}">
-          <div
-            style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
-            class="liltechosseinput_item"
-          >
-            <p class="text_for_menu_item">{{this.name}}</p>
-          </div>
-        </a>
-      </div>
+    <div class="liltechosseinput">
+      <a href="/courses/{{this.slug}}">
+      {{!-- style này bắt buộc phải ở đây --}}
+        <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+          class="liltechosseinput_item">
+          <p class="text_for_menu_item">{{this.name}}</p>
+        </div>
+      </a>
+    </div>
     {{/each}}
   </div>
+  {{!-- ĐÂY LÀ LẤY NHỮNG CƠ SỞ Y TẾ NỔI BẬT LÀM CHÍNH --}}
   <p class="name_pop">Co so y te noi bat</p>
   <div class="popularhoslital">
     {{#each (dbFiltered "02" courses)}}
-      <div class="liltechosseinput">
-        <a href="/courses/{{this.slug}}">
-          <div
-            style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
-            class="liltechosseinput_item"
-          >
-            <p class="text_for_menu_item">{{this.name}}</p>
-          </div>
-        </a>
-      </div>
+    <div class="liltechosseinput">
+      <a href="/courses/{{this.slug}}">
+        <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+          class="liltechosseinput_item">
+          <p class="text_for_menu_item">{{this.name}}</p>
+        </div>
+      </a>
+    </div>
     {{/each}}
   </div>
   <p class="name_pop">Bac si noi bat tuan qua</p>
   <div class="populardoctor">
     {{#each (dbFiltered "03" courses)}}
-      <div class="liltechosseinput">
-        <a href="/courses/{{this.slug}}">
-          <div
-            style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
-            class="liltechosseinput_item"
-          >
-            <p class="text_for_menu_item">{{this.name}}</p>
-          </div>
-        </a>
-      </div>
+    <div class="liltechosseinput">
+      <a href="/courses/{{this.slug}}">
+        <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+          class="liltechosseinput_item">
+          <p class="text_for_menu_item">{{this.name}}</p>
+        </div>
+      </a>
+    </div>
     {{/each}}
   </div>
   <p class="name_pop">Cam nang</p>
   <div class="rosemary">
     {{#each (dbFiltered "04" courses)}}
-      <div class="liltechosseinput">
-        <a href="/courses/{{this.slug}}">
-          <div
-            style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
-            class="liltechosseinput_item"
-          >
-            <p class="text_for_menu_item">{{this.name}}</p>
-          </div>
-        </a>
-      </div>
+    <div class="liltechosseinput">
+      <a href="/courses/{{this.slug}}">
+      {{!-- style này bắt buộc phải ở đây --}}
+        <div style="background-image: linear-gradient(180deg, rgba(255, 254, 254, 0), black), url({{this.image}});"
+          class="liltechosseinput_item">
+          <p class="text_for_menu_item">{{this.name}}</p>
+        </div>
+      </a>
+    </div>
     {{/each}}
   </div>
   <p class="name_pop">Truyen thong noi ve Channel</p>
   <div class="youtubeandsoscity">
 
     <div class="youtobeshow">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/QIvIN8M91x4"
-        title="YouTube video player"
-        frameborder="0"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cAdQFXWJD30?si=1S-913cxxdKEDCY4"
+        title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+        allowfullscreen></iframe>
     </div>
     <div class="textforyoutobe">
       <p>Việnn Y học PK-KQ tiền thân là Bệnh viện PK-KQ được thành lập ngày
